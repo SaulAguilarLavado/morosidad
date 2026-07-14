@@ -1,0 +1,6 @@
+Modelo;Accuracy;Precision;Recall;F1;Mejores_parametros
+Arbol de Decision;0.825;0.7878787878787878;0.7878787878787878;0.7878787878787878;{'model__class_weight': None, 'model__max_depth': 3, 'model__min_samples_leaf': 10}
+Gradient Boosting;0.8;0.8148148148148148;0.6666666666666666;0.7333333333333333;{'model__learning_rate': 0.05, 'model__max_depth': 2, 'model__n_estimators': 50}
+SVM;0.7875;0.7666666666666667;0.696969696969697;0.7301587301587301;{'model__C': 0.5, 'model__class_weight': None, 'model__kernel': 'linear'}
+Regresion Logistica;0.775;0.7419354838709677;0.696969696969697;0.71875;{'model__C': 10, 'model__class_weight': None}
+KNN;0.725;0.7037037037037037;0.5757575757575758;0.6333333333333333;{'model__n_neighbors': 3, 'model__weights': 'distance'}
